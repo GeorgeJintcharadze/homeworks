@@ -1,30 +1,29 @@
+
 class StudentID {
-    constructor(name, surname, score) {
-      this.name = name;
-      this.surname = surname;
-      this.score = score;
-    }
- 
-    toString() {
+  constructor(name, surname, score) {
+    this.name = name;
+    this.surname = surname;
+    this.score = score;
+  }
+
+  toString() {
     return `Name: ${this.name}, Surname: ${this.surname}, Score: ${this.score}`;
-    }
-   }
- 
- let student1 = new StudentID("Duke", "Dukelashvili", 63);
- 
- let student2 = new StudentID("Andrew", "Watson", 55);
- 
- let student3 = new StudentID("Luka", "Modrich", 78);
- 
- let student4 = new StudentID("Lucas", "Vasquez", 49);
- 
- let student5 = new StudentID("Andrew", "Tate", 89);
- 
- console.log(student1.toString());
- console.log(student2.toString());
- console.log(student3.toString());
- console.log(student4.toString());
- console.log(student5.toString());
+  }
+}
+
+let student1 = new StudentID("Duke", "Dukelashvili", 63);
+let student2 = new StudentID("Andrew", "Watson", 55);
+let student3 = new StudentID("Luka", "Modrich", 78);
+let student4 = new StudentID("Lucas", "Vasquez", 49);
+let student5 = new StudentID("Andrew", "Tate", 89);
+
+console.log(student1.toString());
+console.log(student2.toString());
+console.log(student3.toString());
+console.log(student4.toString());
+console.log(student5.toString());
+
+
 
 // 1
  function Person(name, age) {
